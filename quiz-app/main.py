@@ -9,45 +9,35 @@ st.title("📝 Quiz Application")
 # Define quiz questions, options, and answer in the form of a list of dictionaries
 questions = [
     {
-        "question": "What is the capital of Pakistan?",
-        "options": ["Lahore", "Karachi", "Islamabad", "Peshawar"],
-        "answer": "Islamabad",
+        "question": "which lauguage is dynamically typed?",
+        "options": ["java", "Python", "Both", "None"],
+        "answer": "Python",
     },
     {
-        "question": "Who is the founder of Pakistan?",
-        "options": [
-            "Allama Iqbal",
-            "Liaquat Ali Khan",
-            "Muhammad Ali Jinnah",
-            "Benazir Bhutto",
-        ],
-        "answer": "Muhammad Ali Jinnah",
+        "question": "which lauguage is faster in execution ?",
+        "options": ["Java", "Python", "Both", "None"],
+        "answer": "Java",
     },
     {
-        "question": "Which is the national language of Pakistan?",
-        "options": ["Punjabi", "Urdu", "Sindhi", "Pashto"],
-        "answer": "Urdu",
+        "question": "which lauguage is mainly used for Andriod development?",
+        "options": ["Python", "Java", "C++", "JavaScript"],
+        "answer": "Java",
     },
     {
-        "question": "What is the currency of Pakistan?",
-        "options": ["Rupee", "Dollar", "Taka", "Riyal"],
-        "answer": "Rupee",
+        "question": "Which lauguage is uses identation for code blocks?",
+        "options": ["Java", "Python", "C", "Ruby"],
+        "answer": "Python",
     },
     {
-        "question": "Which city is known as the City of Lights in Pakistan?",
-        "options": ["Lahore", "Islamabad", "Faisalabad", "Karachi"],
-        "answer": "Karachi",
+        "question": "Which lauguage is best for AI and Machine learning?",
+        "options": ["JavaScript", "Python", "PHP", "Ruby"],
+        "answer": "Python",
     },
     {
-        "question": "which is the national animal of pakistan?",
-        "options": ["Markhor", "lion", "tiger", "elephant"],
-        "answer" : "Markhor"
-    },
-    {
-        "question" : "which is the national bird of pakistan?",
-        "options" : ["sparrow", "chakor", "parrot", "peacock"],
-        "answer" : "chakor"
-    },
+        "question": "which lauguage  requires  explicit type declaration?",
+        "options": ["Ruby", "Java", "SQl", "JavaScript"],
+        "answer" : "Java"
+    },  
 ]
 
 # Initialize a random question if none exists in the session state
